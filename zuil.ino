@@ -1,3 +1,15 @@
+/**
+ * zuil.ino
+ *
+ * Ramsy M. de Vos
+ * r.d.vos@gtv.nl
+ *
+ * Controls the LEDs on a tower for Essent.
+ *
+ * 21-nov-2016: Initial commit
+ *
+ */
+
 #include <Wire.h>
 #include "FastLED.h"
 

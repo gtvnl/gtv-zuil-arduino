@@ -27,21 +27,22 @@
 CRGB leds[NUM_STRIPS * NUM_LEDS_PER_STRIP];
 
 // Standard numbers to control LEDs
-byte targetEssentValue     = 0;
-byte resultaatEssentValue  = 0;
-byte targetEnergieValue    = 0;
-byte resultaatEnergieValue = 0;
-byte targetNestValue       = 0;
-byte resultaatNestValue    = 0;
+int targetEssentValue     = 0;
+int resultaatEssentValue  = 0;
+int targetEnergieValue    = 0;
+int resultaatEnergieValue = 0;
+int targetNestValue       = 0;
+int resultaatNestValue    = 0;
 
 // Input numbers returned by web form
-byte value1 = 0;
-byte value2 = 0;
-byte value3 = 0;
-byte value3 = 0;
-byte value4 = 0;
-byte value5 = 0;
-byte value6 = 0;
+int value1 = 0;
+int value2 = 0;
+int value3 = 0;
+int value3 = 0;
+int value4 = 0;
+int value5 = 0;
+int value6 = 0;
+
 // Compare with input number to check if a new value was submitted
 byte targetEssentCompare;
 byte resultaatEssentCompare;
